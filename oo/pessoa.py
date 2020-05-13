@@ -21,7 +21,7 @@ class Homem(Pessoa):
     pass
 
 if __name__ == '__main__':
-    lucio = Pessoa(nome ='Lucio')
+    lucio = Homem(nome ='Lucio')
     luciano = Pessoa(lucio, nome = 'Luciano')
     print(Pessoa.cumprimentar(luciano))
     print(id(luciano))
@@ -40,3 +40,8 @@ if __name__ == '__main__':
     print(id(Pessoa.olhos), id(luciano.olhos), id(lucio.olhos))
     print(Pessoa.metodo_estatico(), luciano.metodo_estatico())
     print(Pessoa.nome_e_atributos_de_classe(), luciano.nome_e_atributos_de_classe())
+    pessoa = Pessoa("anonimo")
+    print(isinstance(pessoa, Pessoa))
+    print(isinstance(pessoa, Homem))
+    print(isinstance(lucio, Pessoa))
+    print(isinstance(lucio, Homem))

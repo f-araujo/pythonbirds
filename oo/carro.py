@@ -1,28 +1,29 @@
-""""
-    Voce deve criar uma classe carro que vai possuir
-    dois atributos compostos por outras duas classes:
-
-    1) Motor
-    2) Direção
-
-    O motor terá a responsabilidade de controlar a velocidade.
-    Ele oferece os seguintes atributos:
-
-    1) Atributo de dado velocidade
-    2) Método acelerar, que deverá incrementar a velocidade de uma unidade
-    3) método frear que deverar decrementar a velocidade em duas unidades
-
-    A direção terá a responsabilidade de controlar a direção. Ela oferecerá
-     os seguintes atributos:
-    1) valor de direção com valores possíveis: Norte, Sul, Leste, Oeste.
-    2) Método girar a direção.
-    3) Método girar a esquerda.
-
-        N
-    O       L
-        S
+"""
+        Voce deve criar uma classe carro que vai possuir
+        dois atributos compostos por outras duas classes:
+    
+        1) Motor
+        2) Direção
+    
+        O motor terá a responsabilidade de controlar a velocidade.
+        Ele oferece os seguintes atributos:
+    
+        1) Atributo de dado velocidade
+        2) Método acelerar, que deverá incrementar a velocidade de uma unidade
+        3) método frear que deverar decrementar a velocidade em duas unidades
+    
+        A direção terá a responsabilidade de controlar a direção. Ela oferecerá
+         os seguintes atributos:
+        1) valor de direção com valores possíveis: Norte, Sul, Leste, Oeste.
+        2) Método girar a direção.
+        3) Método girar a esquerda.
+    
+            N
+        O       L
+            S
 
         Exemplo:
+        >>>#testando motor
         >>> motor = Motor()
         >>> motor.velocidade()
         0

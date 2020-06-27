@@ -742,6 +742,7 @@ class PassaroAmareloTests(PassaroBaseTests):
         self.assert_passaro_posicao(91, 1, ATIVO, passaro_amarelo, 6.25)
         self.assert_passaro_posicao(91, 1, ATIVO, passaro_amarelo, 6.26)
         self.assert_passaro_posicao(92, 0, ATIVO, passaro_amarelo, 6.29)
+
         passaro_amarelo.colidir_com_chao()
         self.assertEqual(DESTRUIDO, passaro_amarelo.status)
         # Código de geração de testes
